@@ -1,5 +1,28 @@
 # Blue Bite Assessment
 
+## Project Summary
+This assessment involved implementing specific API routes in Django. Although I had basic familiarity with Django from a few years ago, revisiting the framework and implementing the requirements posed challenges, particularly in setting up Docker and resolving initial connectivity issues. Notably, in settings.py, a typo in the database connection settings (using post instead of port) required troubleshooting, which added to the initial setup time. This assignment provided a valuable opportunity to deepen my understanding, but it required more time than I initially anticipated.
+
+## Time Taken
+Although the suggested time allotment was two hours, given the re-learning curve with Django and resolving setup issues, the overall time required was approximately four hours. Due to this extended timeframe, I prioritized completing the essential features and deferred any additional work.
+
+## Design Choices
+**Models:** I structured the models to clearly represent the batch, objects, and key-value data relationships, using ForeignKey constraints and setting appropriate unique constraints to ensure data integrity.
+
+**Serializers:** Nested serializers were chosen to simplify data handling for nested JSON input, facilitating validation and efficient data processing.
+
+**API Response:** For a clear response structure, the successful API returns a message rather than the full payload, keeping the response concise and user-friendly.
+
+## Additional Information
+While I aimed to incorporate unit tests for API endpoints, time constraints limited this implementation. Given more time, I would add comprehensive test cases for each route to ensure robust validation and response accuracy.
+
+**Code Clarity:** I've added comments throughout the code to explain the logic behind various sections, ensuring that the reasoning behind design choices is clear.
+
+**Docstrings:** Each function includes a docstring outlining its purpose, parameters, and return values, which is critical for maintaining clarity in collaborative environments.
+
+## Conclusion
+This assessment was an enriching experience that enhanced my familiarity with Django and Docker. I appreciate the opportunity to showcase my problem-solving skills and my approach to developing APIs. Please feel free to reach out if you have any questions regarding my implementation.
+
 ## Introduction
 
 This repo includes a stub Django project. We would like you to extend this project by adding three
