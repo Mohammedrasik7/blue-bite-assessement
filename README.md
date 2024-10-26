@@ -21,7 +21,7 @@ While I aimed to incorporate unit tests for API endpoints, time constraints limi
 **Docstrings:** Each function includes a docstring outlining its purpose, parameters, and return values, which is critical for maintaining clarity in collaborative environments.
 
 ## Conclusion
-This assessment was an enriching experience that enhanced my familiarity with Django and Docker. I appreciate the opportunity to showcase my problem-solving skills and my approach to developing APIs. Please feel free to reach out if you have any questions regarding my implementation.
+This assessment was an enriching experience that enhanced my familiarity with Django. I appreciate the opportunity to showcase my problem-solving skills and my approach to developing APIs. Please feel free to reach out if you have any questions regarding my implementation.
 
 ## Introduction
 
